@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Kareem Abu-Saif "
+  navbar:
+    right:
+      - text: About
+        href: index.qmd
+      - text: Projects
+        href: Projects.qmd
+      - text: Resume 
+        href: Resume.qmd
+      - icon: github
+        href: https://github.com/
+format:
+  html:
+    theme:
+      - litera
+      - brand
+    css: styles.css
+
+editor: visual
+engine: markdown
+
