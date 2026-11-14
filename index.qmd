@@ -14,9 +14,9 @@ about:
       text: Contact 
       href: mailto:kabusaif@uark.edu 
 ---
+
 ::: {style="font-size: 0.9em; font-weight: normal;"}
-
 I am a driven Industrial Engineering student at the University of Arkansas, interested in improving systems and solving practical problems through analytical thinking. I currently serve as a CORD Tutor and an Embedded Peer Tutor at the university, helping students strengthen their understanding of course material and build confidence in their abilities. These roles allow me to develop my communication, leadership, and problem-solving skills while supporting the academic success of my peers. As I continue my degree, I aim to build on these experiences and apply my engineering knowledge to challenges in industry.
-
 :::
----
+
+------------------------------------------------------------------------
