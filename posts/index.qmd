@@ -39,7 +39,7 @@ All of the analysis below is in a *Charts* sheet in the same workbook. Every num
 
 **How we developed the visual:** Because the question is about change over time, we used a line chart (our time-series plot) with *Flight Date* on the horizontal axis and cancelled flights on the vertical axis. We kept Excel's default style, added a title and axis titles, and turned off the legend since there is only one series. The spike from January 24 to 28 lines up with Winter Storm Fern, which brought snow and ice to Arkansas that weekend, so that became the assertion on our slide.
 
-![Assertion-evidence slide for Question 1](slide-q1.png){fig-alt="Slide stating that Winter Storm Fern caused 68 of January's 74 XNA cancellations, with a line chart of cancelled flights per day that is near zero until a spike of 26 on January 24."}
+![Assertion-evidence slide for Question 1](/slide-q1.png){fig-alt="Slide stating that Winter Storm Fern caused 68 of January's 74 XNA cancellations, with a line chart of cancelled flights per day that is near zero until a spike of 26 on January 24."}
 
 ## Question 2: Which airlines operate the most flights out of XNA?
 
@@ -49,7 +49,7 @@ All of the analysis below is in a *Charts* sheet in the same workbook. Every num
 
 **How we developed the visual:** We used a horizontal bar chart because the airline names are long and read more easily on the vertical axis. Bars are sorted with the largest airline at the top. Envoy Air, PSA Airlines and American Airlines mainline all fly under the American brand, so together they make 628 of 1,077 flights (58%). That share became our assertion.
 
-![Assertion-evidence slide for Question 2](slide-q2.png){fig-alt="Slide stating that Envoy alone flew 46 percent of XNA departures and American-branded airlines flew 58 percent, with a horizontal bar chart of flights by airline led by Envoy Air with 500."}
+![Assertion-evidence slide for Question 2](/slide-q2.png){fig-alt="Slide stating that Envoy alone flew 46 percent of XNA departures and American-branded airlines flew 58 percent, with a horizontal bar chart of flights by airline led by Envoy Air with 500."}
 
 ## Question 3: At what hours of the day are XNA flights scheduled to leave?
 
@@ -59,7 +59,7 @@ All of the analysis below is in a *Charts* sheet in the same workbook. Every num
 
 **How we developed the visual:** We made a histogram from the frequency table using a column chart, with the gap width set to 10% so the bars sit next to each other like a histogram's bins. The hour of day is on the horizontal axis (24-hour clock) and the number of flights on the vertical axis. The two tallest bars, 6 AM and 5 PM, show the two waves of departures our assertion describes.
 
-![Assertion-evidence slide for Question 3](slide-q3.png){fig-alt="Slide stating that XNA departures come in two waves, with a histogram of flights by scheduled departure hour peaking at 146 flights at 6 AM and 149 at 5 PM."}
+![Assertion-evidence slide for Question 3](/slide-q3.png){fig-alt="Slide stating that XNA departures come in two waves, with a histogram of flights by scheduled departure hour peaking at 146 flights at 6 AM and 149 at 5 PM."}
 
 ## Question 4: Do flights that leave late make up the time in the air?
 
@@ -69,9 +69,8 @@ All of the analysis below is in a *Charts* sheet in the same workbook. Every num
 
 **How we developed the visual:** We used a scatter plot with departure delay on the horizontal axis and arrival delay on the vertical axis, one dot per flight. We added Excel's linear trendline and displayed its equation and R² (0.95) on the chart. Because the slope is about 1, a flight's arrival delay is almost the same as its departure delay, and the intercept shows flights recover only about 6.5 minutes on average. That became our assertion.
 
-![Assertion-evidence slide for Question 4](slide-q4.png){fig-alt="Slide stating that arrival delay tracks departure delay almost exactly, with a scatter plot of departure versus arrival delay and a linear trendline y = 1.01x - 6.51 with R squared 0.95."}
+![Assertion-evidence slide for Question 4](/slide-q4.png){fig-alt="Slide stating that arrival delay tracks departure delay almost exactly, with a scatter plot of departure versus arrival delay and a linear trendline y = 1.01x - 6.51 with R squared 0.95."}
 
 ## Source
 
 U.S. Bureau of Transportation Statistics, *Airline On-Time Performance Data*, flights departing XNA, January 2026.
-
