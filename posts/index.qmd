@@ -4,7 +4,7 @@ description: "INEG 21003 Data Visualization Team Project, Fall 2026: four questi
 author: "INEG 21003 Team 8"
 date: "2026-11-13"
 categories: [INEG 21003, Excel, Data Visualization]
-image: (/slide-q1.png) 
+image: preview.png
 ---
 
 ## Team Members
